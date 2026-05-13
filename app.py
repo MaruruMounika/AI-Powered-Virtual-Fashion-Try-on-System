@@ -25,7 +25,7 @@ db = SQLAlchemy(app)
 # -------------------------------
 # Gemini Config
 # -------------------------------
-genai.configure(api_key="AIzaSyByYpMGp_zI1RRuI7smiBBeNWcbmCdmAvg")
+genai.configure(api_key="YOUR_API_KEY")
 
 # -------------------------------
 # Encryption Key Handling
