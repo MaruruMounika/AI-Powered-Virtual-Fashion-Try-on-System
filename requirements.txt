@@ -2,5 +2,5 @@ Flask
 flask_sqlalchemy
 cryptography
 google-generativeai
-psycogp2-binary
+psycopg2-binary
 gunicorn
