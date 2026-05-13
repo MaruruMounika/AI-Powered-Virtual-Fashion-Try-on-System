@@ -14,9 +14,7 @@ import google.generativeai as genai
 # App Config
 # -------------------------------
 app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = (
-    "postgresql+psycopg2://postgres:12345@localhost:5432/postgres"
-)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.config['SECRET_KEY'] = 'your-secret-key-change-this-in-production'  # Change this!
 
